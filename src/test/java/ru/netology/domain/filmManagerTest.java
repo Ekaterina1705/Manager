@@ -52,7 +52,7 @@ public class filmManagerTest {
         manager.addFilm(film2);
         manager.addFilm(film3);
         manager.addFilm(film4);
-        manager.addFilm(film5);m
+        manager.addFilm(film5);
 
         String[] actual = manager.findLast();
         String[] expected = {film5, film4, film3, film2, film1};
