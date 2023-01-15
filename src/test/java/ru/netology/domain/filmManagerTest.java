@@ -37,7 +37,6 @@ public class filmManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
 
-
     }
 
     @Test
@@ -49,19 +48,16 @@ public class filmManagerTest {
         String film4 = "Movie 4";
         String film5 = "Movie 5";
 
-
         manager.addFilm(film1);
         manager.addFilm(film2);
         manager.addFilm(film3);
         manager.addFilm(film4);
-        manager.addFilm(film5);
-
+        manager.addFilm(film5);m
 
         String[] actual = manager.findLast();
         String[] expected = {film5, film4, film3, film2, film1};
 
         Assertions.assertArrayEquals(expected, actual);
-
 
     }
 }
