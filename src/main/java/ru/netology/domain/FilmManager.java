@@ -1,14 +1,14 @@
 package ru.netology.domain;
 
-public class filmManager {
+public class FilmManager {
     private String[] films = new String[0];
     private int limit;
 
-    public filmManager() {
+    public FilmManager() {
         this.limit = 10;
     }
 
-    public filmManager(int limit) {
+    public FilmManager(int limit) {
         this.limit = limit;
 
     }
